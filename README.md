@@ -44,7 +44,7 @@ _If there is time remaining after completing the required objectives, the follow
 
 ## Website Components Planning
 
-<img src="./src/components/img/Tap-Room.png">
+<img src="./src/img/Tap-Room.png">
 
 ## Technologies Used <a id="technologies"></a>
 
