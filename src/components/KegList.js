@@ -12,7 +12,7 @@ function KegList(props) {
       {props.kegList.map((keg) => 
         <div class="col mb-4">
           <div className= "card shadow-lg h-100 text-left" style={{backgroundColor: "#add8e6"}}>
-            <Merch
+            <Keg
               whenKegClicked = {props.onKegSelection}
               name={keg.name}
               brand={keg.brand}
