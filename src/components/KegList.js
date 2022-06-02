@@ -5,13 +5,14 @@ import PropTypes from 'prop-types'
 function KegList(props) {
   return (
     <React.Fragment>
-      <h1 className="headingFont" style={{color: "black"}}>What's On Tap</h1>
+      <h1 className="headingFont" style={{color: "black"}}>Currently On Tap</h1>
       <hr />
       <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
       
       {props.kegList.map((keg) => 
         <div class="col mb-4">
           <div className= "card shadow-lg h-100 text-left" style={{backgroundColor: "#add8e6"}}>
+            <br/>
             <Keg
               whenKegClicked = {props.onKegSelection}
               name={keg.name}

@@ -11,9 +11,9 @@ function NewKegForm(props) {
       brand: event.target.brand.value, 
       name: event.target.name.value, 
       region: event.target.region.value, 
-      abv: event.target.abv.value, 
-      ibu: event.target.ibu.value, 
-      price: event.target.price.value, 
+      abv: parseInt(event.target.abv.value), 
+      ibu: parseInt(event.target.ibu.value), 
+      price: parseInt(event.target.price.value), 
       pints: parseInt(event.target.pints.value), 
       id: v4()});
   }

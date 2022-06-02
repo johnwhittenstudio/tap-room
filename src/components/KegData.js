@@ -13,7 +13,7 @@ const KegData = [
   },
   {
     brand: "Frida K-ALE-o",
-    name: "Cerveza Especial",
+    name: "Cerveza Especial w/ limon and thorns",
     region: "Central Mexico",
     abv: 5,
     ibu: 43,
@@ -23,7 +23,7 @@ const KegData = [
   },
   {
     brand: "Slurry Night",
-    name: "CBD/CBN Stout w/ Nyquil Shot",
+    name: "CBD/CBN infused Stout w/ Nyquil Shot",
     region: "Southern France",
     abv: 6,
     ibu: 38,
@@ -33,7 +33,7 @@ const KegData = [
   },
   {
     brand: "Pipilotti Rist-slap",
-    name: "Stout",
+    name: "Sassafrass Witbier w/ slap bracelet",
     region: "Switzerland",
     abv: 8,
     ibu: 56,

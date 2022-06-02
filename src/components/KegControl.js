@@ -2,8 +2,8 @@ import React from 'react';
 // import { v4 } from 'uuid';
 import NewKegForm from './NewKegForm';
 import KegList from './KegList';
-// import KegDetail from './KegDetail';
-// import EditKegForm from './EditKegForm';
+import KegDetail from './KegDetail';
+import EditKegForm from './EditKegForm';
 import KegData from './KegData';
 
 class KegControl extends React.Component {
@@ -69,49 +69,30 @@ class KegControl extends React.Component {
   }
 
   handleIncreasingKegStock = (id) => {
-    // if(this.state.mainKegList > 1) {
-      const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0]
-      selectedKeg.items++;
+    const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0]
+      selectedKeg.pints++;
       console.log("Current pint: " + this.state.mainKegList.concat(selectedKeg));
       const newMainKegList = this.state.mainKegList.filter(keg => keg.id !==id).concat(selectedKeg);
       this.setState({mainKegList:newMainKegList});
-    // } else {
-    //   const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0]
-    //   selectedKeg.items++;
-    //   console.log("We in the else");
-    //   const newKegListArray = this.state.mainKegList;
-    //   const changedKegArray = newKegListArray.concat(selectedKeg);
-    //   this.setState({
-    //     mainKegList: changedKegArray
-    //   });
-    //}
   }
+
 
   handleDecreasingKegStock = (id) => {
     const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0]
-    //  if(selectedKeg.items > 1) 
     {
-      selectedKeg.items--;
+      selectedKeg.pints--;
       const newMainKegList = this.state.mainKegList.filter(keg => keg.id !==id).concat(selectedKeg);
       this.setState({mainKegList:newMainKegList});
     } 
-    // else {
-    //   const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0]
-    //   selectedKeg.items--;
-    //   const newKegListArray = this.state.mainKegList;
-    //   const changedKegArray = newKegListArray.concat(selectedKeg);
-    //   this.setState({
-    //     mainKegList: changedKegArray,
-    //   });
-    // }
   }
+
 
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
     if (this.state.editing) {
       currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} onEditKeg = {this.handleEditingKegInList}/>
-      buttonText = "Return to Keg List";
+      buttonText = "Return to Tap List";
     } else if(this.state.selectedKeg != null) {
       currentlyVisibleState = <KegDetail 
         keg={this.state.selectedKeg}

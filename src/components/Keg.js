@@ -12,10 +12,10 @@ function Keg(props) {
         <h5>{props.name}</h5>
         <p>Region: <em>{props.region}</em></p>
         <p>ABV: <em>{props.abv}%</em></p>
-        <p>IBU: <em>${props.ibu}</em></p>
-        <p>Price: <em>{props.price}</em></p>
+        <p>IBU: <em>{props.ibu}</em></p>
+        <p>Price: <em>${props.price}</em></p>
         <p>Pints available: <em>{stockCheck}</em></p>
-        <hr />
+        {/* <hr /> */}
       </div>
     </React.Fragment>
   );
