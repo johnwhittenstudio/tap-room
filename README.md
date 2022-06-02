@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# <p align="center"> 👨‍🎨 **Michelob Angelo's Pietàproom** 🍻 </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_June 2, 2022_
 
-## Available Scripts
+#### _React merch website with full CRUD capability for a ficticious tap room_
 
-In the project directory, you can run:
+#### By _**John Whitten**_
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [Description](#description)
+2. [Technologies Used](#technologies)
+3. [Setup/Installation Requirements](#setup)
+4. [Known Bugs](#bugs)
+5. [Contact Information](#contact)
+6. [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description <a id="description"></a>
+Build a tap room in React where a bar or kombucha store can track their kegs. This could also be a soda fountain or another kind of tracker - as long as the remaining amount is tracked and the objectives are met, creative with this prompt is welcome.
 
-### `npm test`
+Before getting started, plan the application and draw a component tree or component diagram that shows the structure of your components. This is a requirement for the project and should be included in the README. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This website components planning was created with https://www.draw.io/.
 
-### `npm run build`
+Only CREATE and READ functionality are expected, although full CRUD implenetation is welcome. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+With the following user stories as a place to start, the application should have the following functionality:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- As a user, I want to see a list/menu of all available kegs. For each keg, I want to see its name, brand, price and alcoholContent (or perhaps something like flavor for a kombucha store).
+- As a user, I want to submit a form to add a new keg to a list.
+- As a user, I want to be able to click on a keg to see its detail page.
+- As a user, I want to see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
+- As a user, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### _Further Exploration_
+_If there is time remaining after completing the required objectives, the following user stories are opportunities for further exploration:_
 
-### `npm run eject`
+- As a user, I want the option to edit a keg's properties after entering them just in case I make a mistake.
+- As a user, I want to be able to delete a keg.
+- As a user, I want a keg to update to say "Out of Stock" once it's empty.
+- As a user, I want kegs with less than 10 pints to include a message that says "Almost Empty" so I can try a pint before it's gone!
+- As a user, I want to have kegs prices to be color-coded for easy readability. This could be based on their price, the style of beer or kombucha, or the amount of pints left.
+- As a user, I want this application to be nicely styled. (Use stylesheets and CSS objects!)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Website Components Planning
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./src/img/Tap-Room.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used <a id="technologies"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* HTML
+* CSS
+* JavaScript/JSX
+* NPM
+* Webpack
 
-## Learn More
+## Project Setup/Installation Instructions <a id="setup"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Navigate to the directory in which you would like to clone this project.
+* Run `git clone https://github.com/johnwhittenstudio/tap-room.git` in terminal.
+* Run `cd tap-room` to navigate into new project directory.
+* Open the cloned repo in a text editor of your choice.
+* Run `npm install` to download all dependencies.
+* Run `npm run start` to start a live server and view projec in the browser.
+* Run `npm run test` to run tests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Known Bugs <a id="bugs"></a>
 
-### Code Splitting
+- _None._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact <a id="contact"></a>
+John Whitten - [Email](mailto:johnwhitten.studio@gmail.com) • [LinkedIn](https://www.linkedin.com/in/johnwhitten-studio/) • [GitHub](https://github.com/johnwhittenstudio)
 
-### Analyzing the Bundle Size
+## License <a id="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Copyright (c) 2022 _**John Whitten**_
 
-### Making a Progressive Web App
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
