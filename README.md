@@ -1,4 +1,4 @@
-# <p align="center"> 👨‍🎨 **Michelob Angelo's Pietàproom** 🍺 </p>
+# <p align="center"> 👨‍🎨 🍺 **Michelob Angelo's Pietàproom** 🍺 🎨 </p>
 
 _June 2, 2022_
 
