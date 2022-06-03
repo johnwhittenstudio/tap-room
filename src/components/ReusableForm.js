@@ -8,11 +8,11 @@ function ReusableForm(props) {
         <input
           type="text"
           name="brand"
-          placeholder="Style" />
+          placeholder="Name" />
         <input
           type="text"
           name="name"
-          placeholder="Name" />
+          placeholder="Brewery" />
         <input
           type="text"
           name="region"
