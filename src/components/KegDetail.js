@@ -4,15 +4,12 @@ import PropTypes from 'prop-types'
 function KegDetail(props) {
   const { keg, onClickingDelete, onClickingIncrease, onClickingDecrease } = props;
   const pints = keg.pints === 0 ? "Out of Stock" : keg.pints;
-
-  const buyButton = keg.pints === 0 ? <p></p> : <button className="btn shadow mr-2 btn-success" onClick={() => onClickingDecrease(keg.id)}>Buy</button>
+  const buyButton = keg.pints === 0 ? <p></p> : <button className="btn shadow mr-2 btn-info" onClick={() => onClickingDecrease(keg.id)}>Buy</button>
   return (
     <React.Fragment>
       <div className="card shadow-lg w-75 mx-auto" style={{fontSize: 24, color: "black"}}>
-        <div className="headingFont card-header text-center text-black" style={{fontSize: 24, color: "black"}}>{keg.brand}</div>
+        <div className="headingFont card-header text-center text-black" style={{fontSize: 24, backgroundColor: "#ffdcd2", color: "black"}}><em>Keg Details</em></div>
           <div className="card-body">
-            <h5>Keg Details:</h5>
-            <hr />
             <div class="row">
               <h2><strong>{keg.brand}</strong></h2>
             </div>
@@ -21,10 +18,10 @@ function KegDetail(props) {
             <hr />
             <p>ABV: <em>{keg.abv}%</em></p>
             <p>IBU: <em>{keg.ibu}</em></p>
-            <p>Price: <em>${keg.price}</em></p>
+            <p>Price: <em><strong>${keg.price}</strong></em></p>
             <p>Pints Available: <em>{pints}</em></p>
           </div>
-          <div className="card-footer justify-content-center">
+          <div className="card-footer justify-content-center" style={{backgroundColor: "#ffdcd2"}}>
           {buyButton}
           <br/>
             <button onClick={props.onClickingEdit} className="btn shadow mr-2 updateBtn">Update Keg</button>

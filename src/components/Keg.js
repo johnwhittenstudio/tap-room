@@ -63,6 +63,7 @@ function Keg(props) {
         <p>ABV: <em>{props.abv}%</em></p>
         <p>IBU: <em>{props.ibu}</em></p>
         <p>Price: <em><strong>${props.price}</strong></em></p>
+        <hr id="cardhrlow" />
         <p>Pints available: <em>{props.pints}</em></p>
       </div>
     </React.Fragment>
