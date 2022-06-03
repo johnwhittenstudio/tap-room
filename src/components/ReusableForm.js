@@ -37,6 +37,8 @@ function ReusableForm(props) {
           min={1}
           name="pints"
           placeholder="Number of Pints" />
+          <br/>
+          <br/>
           <button className="btn shadow mr-2 updateBtn btn-outline-secondary" type='submit'>{props.buttonText}</button>
       </form>
       <hr />
