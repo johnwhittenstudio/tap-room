@@ -2,7 +2,7 @@
 
 _June 2, 2022_
 
-#### _React merch website with full CRUD capability for a ficticious tap room_
+#### _React website with full CRUD capability for a fictitious tap room_
 
 #### By _**John Whitten**_
 
