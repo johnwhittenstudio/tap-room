@@ -112,8 +112,7 @@ class KegControl extends React.Component {
     return(
       <React.Fragment>
         {currentlyVisibleState}
-        {/* <br/> */}
-        <button className="btn shadow deleteBtn" onClick={this.handleClick}>{buttonText}</button>
+        <button className="btn shadow deleteBtn btn-outline-secondary" onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }

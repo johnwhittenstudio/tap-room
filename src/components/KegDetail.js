@@ -24,9 +24,9 @@ function KegDetail(props) {
           <div className="card-footer justify-content-center" style={{backgroundColor: "white"}}>
           {buyButton}
           <br/>
-            <button onClick={props.onClickingEdit} className="btn shadow mr-2 updateBtn">Update Keg</button>
-            <button onClick={() => onClickingDelete(keg.id)} className="btn shadow deleteBtn">Delete Keg</button>
-            <button onClick={() => onClickingIncrease(keg.id)} className="btn shadow deleteBtn">Restock</button>
+            <button onClick={props.onClickingEdit} className="btn shadow mr-2 updateBtn btn-outline-secondary">Update Keg</button>
+            <button onClick={() => onClickingDelete(keg.id)} className="btn shadow deleteBtn btn-outline-secondary">Delete Keg</button>
+            <button onClick={() => onClickingIncrease(keg.id)} className="btn shadow deleteBtn btn-outline-secondary">Restock</button>
           </div>
         </div>
     </React.Fragment>
