@@ -21,7 +21,7 @@ function KegDetail(props) {
             <p>Price: <em><strong>${keg.price}</strong></em></p>
             <p>Pints Available: <em>{pints}</em></p>
           </div>
-          <div className="card-footer justify-content-center" style={{backgroundColor: "#ffdcd2"}}>
+          <div className="card-footer justify-content-center" style={{backgroundColor: "white"}}>
           {buyButton}
           <br/>
             <button onClick={props.onClickingEdit} className="btn shadow mr-2 updateBtn">Update Keg</button>
