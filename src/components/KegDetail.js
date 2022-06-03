@@ -14,12 +14,12 @@ function KegDetail(props) {
             <h5>Keg Details:</h5>
             <hr />
             <div class="row">
-              <h3>Brand: <strong>{keg.brand}</strong></h3>
+              <h3><strong>{keg.brand}</strong></h3>
             </div>
-            <h3>Name: {keg.name}</h3>
-            <h5>Region: <em>{keg.region}</em></h5>
+            <h3><strong>{keg.name}</strong></h3>
+            <h5><em>{keg.region}</em></h5>
             <hr />
-            <p>ABV: <em>{keg.abv}</em></p>
+            <p>ABV: <em>{keg.abv}%</em></p>
             <p>IBU: <em>{keg.ibu}</em></p>
             <p>Price: <em>${keg.price}</em></p>
             <p>Pints Available: <em>{pints}</em></p>

@@ -13,7 +13,7 @@ function EditKegForm(props) {
       region: event.target.region.value, 
       abv: parseInt(event.target.abv.value), 
       ibu: parseInt(event.target.ibu.value), 
-      pints: parseInt(event.target.items.value), 
+      pints: parseInt(event.target.pints.value), 
       price: parseInt(event.target.price.value), 
       id: keg.id
     });

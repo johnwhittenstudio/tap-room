@@ -12,7 +12,7 @@ function ReusableForm(props) {
         <input
           type="text"
           name="name"
-          placeholder="Brewery" />
+          placeholder="Style" />
         <input
           type="text"
           name="region"
@@ -24,10 +24,12 @@ function ReusableForm(props) {
           placeholder="ABV" />
         <input
           type="number"
+          min={1}
           name="ibu"
           placeholder="IBU" />
         <input
           type="number"
+          min={1}
           name="price"
           placeholder="Price" />
         <input 

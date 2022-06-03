@@ -3,7 +3,7 @@ import { v4 } from 'uuid';
 const KegData = [
   {
     brand: "Frida K-ALE-o",
-    name: "Cerveza Especial w/ limon and thorns",
+    name: "Cerveza Especial w/ limón and thorns",
     region: "Central Mexico",
     abv: 5,
     ibu: 43,
@@ -13,27 +13,27 @@ const KegData = [
   },
   {
     brand: "Lumber Jack Whitten",
-    name: "IIIPA",
+    name: "Quadruple IPA",
     region: "Pacific Northwest, USA",
     abv: 9,
     ibu: 72,
-    price: 6,
-    pints: 124,
-    id: v4()
-  },
-  {
-    brand: "Slurry Night",
-    name: "CBD/CBN infused Stout w/ Nyquil Shot",
-    region: "Southern France",
-    abv: 11,
-    ibu: 38,
     price: 7,
     pints: 124,
     id: v4()
   },
   {
+    brand: "Slurry Night",
+    name: "CBD/CBN infused Stout w/ NyQuil Shot",
+    region: "Southern France",
+    abv: 11,
+    ibu: 38,
+    price: 9,
+    pints: 124,
+    id: v4()
+  },
+  {
     brand: "Pipilotti Rist-slap",
-    name: "Sassafrass Witbier w/ slap bracelet",
+    name: "Sassafras Witbier w/ slap bracelet",
     region: "Switzerland",
     abv: 5,
     ibu: 32,
@@ -53,7 +53,7 @@ const KegData = [
   },
   {
     brand: "Vincent Van GoGo",
-    name: "Poppy milk Espresso Stout",
+    name: "Poppy milk Espresso Belgian Strong Pale Ale",
     region: "Netherlands/Belgium",
     abv: 9,
     ibu: 51,
