@@ -43,7 +43,7 @@ const KegData = [
   },
   {
     brand: "Jackson Pollock's Last Joyride",
-    name: "Gin-saturated Dark Ale",
+    name: "Gin-soaked Dark Ale",
     region: "New England, USA",
     abv: 22,
     ibu: 66,

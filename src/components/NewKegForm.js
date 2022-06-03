@@ -20,7 +20,7 @@ function NewKegForm(props) {
 
   return (
     <React.Fragment>
-      <div className="card bodyFont p-4 x-50 mx-auto" style={{backgroundColor: "white"}}>
+      <div className="card shadow-lg h-100 text-left card body Font p-4 w-50 mx-auto" style={{backgroundColor: "white"}}>
         <h1 className="headingFont" style={{color: "black"}}>Add a New Keg</h1>
         <hr />
         <ReusableForm 

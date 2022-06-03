@@ -5,7 +5,7 @@ function KegDetail(props) {
   const { keg, onClickingDelete, onClickingIncrease, onClickingDecrease } = props;
   const pints = keg.pints === 0 ? "Out of Stock" : keg.pints;
 
-  const buyButton = keg.pints === 0 ? <p></p> : <button onClick={() => onClickingDecrease(keg.id)}>Buy</button>
+  const buyButton = keg.pints === 0 ? <p></p> : <button className="btn shadow mr-2 btn-success" onClick={() => onClickingDecrease(keg.id)}>Buy</button>
   return (
     <React.Fragment>
       <div className="card shadow-lg w-75 mx-auto" style={{fontSize: 24, color: "black"}}>
@@ -14,7 +14,7 @@ function KegDetail(props) {
             <h5>Keg Details:</h5>
             <hr />
             <div class="row">
-              <h3><strong>{keg.brand}</strong></h3>
+              <h2><strong>{keg.brand}</strong></h2>
             </div>
             <h3><strong>{keg.name}</strong></h3>
             <h5><em>{keg.region}</em></h5>

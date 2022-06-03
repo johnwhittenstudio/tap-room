@@ -37,7 +37,7 @@ function ReusableForm(props) {
           min={1}
           name="pints"
           placeholder="Number of Pints" />
-          <button type='submit'>{props.buttonText}</button>
+          <button className="btn shadow mr-2 updateBtn btn-light" type='submit'>{props.buttonText}</button>
       </form>
       <hr />
       <br/>
