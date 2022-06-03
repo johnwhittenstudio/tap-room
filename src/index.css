@@ -18,20 +18,28 @@ code {
 }
 
 #card {
-  /* background-color: #f4511e; */
+  background-color: #add8e6;
   border: 2px solid #add8e6;
   color: black;
   /* padding: 16px 32px; */
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: 0.3s;
 }
 
 #card:hover {
   opacity: 1;
+  background-color: #fcbba7;
   border: 2px solid #f4501ead;
   color: black;
+}
 
+#cardhr {
+  border: 2px solid #00bfff; 
+  max-width: 85%;
+  margin-left: 8%;
+  border-radius: 5px;
+  align-content: center;
 }
