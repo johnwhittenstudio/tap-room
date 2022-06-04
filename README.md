@@ -47,8 +47,13 @@ _If there is time remaining after completing the required objectives, the follow
 <img src="./src/img/Tap-Room.png">
 
 ## App Preview
+### Read Functionality
 <img src="./src/img/preview_01.gif">
+
+### Decrement / Increment Functionality
 <img src="./src/img/preview_02.gif">
+
+### Delete / Create Functionality
 <img src="./src/img/preview_03.gif">
 
 ## Technologies Used <a id="technologies"></a>
