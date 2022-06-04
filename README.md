@@ -46,6 +46,11 @@ _If there is time remaining after completing the required objectives, the follow
 
 <img src="./src/img/Tap-Room.png">
 
+## App Preview
+<img src="./src/img/preview_01.gif">
+<img src="./src/img/preview_02.gif">
+<img src="./src/img/preview_03.gif">
+
 ## Technologies Used <a id="technologies"></a>
 
 * HTML
