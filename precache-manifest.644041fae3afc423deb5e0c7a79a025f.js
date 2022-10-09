@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fc1654f96014fc2e291fa44d5a9d938",
+    "revision": "81ec4a0d1c3687f516237bf5e7363654",
     "url": "/tap-room/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tap-room/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "edd7311a16138a9f447d",
+    "revision": "ff9f8c40c008f17a7da6",
     "url": "/tap-room/static/css/main.f83cf3d3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tap-room/static/js/3.19e5904c.chunk.js"
   },
   {
-    "revision": "edd7311a16138a9f447d",
-    "url": "/tap-room/static/js/main.d1d399ae.chunk.js"
+    "revision": "ff9f8c40c008f17a7da6",
+    "url": "/tap-room/static/js/main.9425ec35.chunk.js"
   },
   {
     "revision": "a447ecde6ab893d364f9",
